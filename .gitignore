@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/yarn,vscode,solidity,node,macos,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,vscode,solidity,node,macos,dotenv
+# Created by https://www.toptal.com/developers/gitignore/api/vscode,visualstudiocode,macos,dotenv,node,solidity
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,visualstudiocode,macos,dotenv,node,solidity
 
 ### dotenv ###
 .env
@@ -231,31 +231,23 @@ temp/
 
 # Temporary folders
 
-### vscode ###
+### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
-### yarn ###
-# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-.yarn/*
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
+### vscode ###
+!.vscode/settings.json
+!.vscode/extensions.json
 
-# if you are NOT using Zero-installs, then:
-# comment the following lines
-!.yarn/cache
-
-# and uncomment the following lines
-# .pnp.*
-
-# End of https://www.toptal.com/developers/gitignore/api/yarn,vscode,solidity,node,macos,dotenv
+# End of https://www.toptal.com/developers/gitignore/api/vscode,visualstudiocode,macos,dotenv,node,solidity
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
+node_modules
