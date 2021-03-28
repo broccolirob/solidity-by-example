@@ -1,0 +1,2 @@
+.exit
+hre.artifacts.readArtifactSync('Greeter');
